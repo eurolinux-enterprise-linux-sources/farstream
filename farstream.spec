@@ -5,7 +5,7 @@
 
 Name:           farstream
 Version:        0.1.2
-Release:        5%{?dist}
+Release:        8%{?dist}
 Summary:        Libraries for videoconferencing
 
 License:        LGPLv2+
@@ -132,6 +132,17 @@ find $RPM_BUILD_ROOT -name '*.la' -exec rm -f {} ';'
 
 
 %changelog
+* Fri Feb 28 2014 Matthias Clasen <mclasen@redhat.com> - 0.1.2-8
+- Rebuild
+Resolves: #1070804
+
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.1.2-7
+- Mass rebuild 2014-01-24
+  Related: #1056145
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.1.2-6
+- Mass rebuild 2013-12-27
+
 * Thu Apr 18 2013 Debarshi Ray <rishi@fedoraproject.org> - 0.1.2-5
 - Fix build failure due broken annotations.
 
